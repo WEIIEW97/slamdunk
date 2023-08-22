@@ -1,5 +1,5 @@
 FILE(GLOB inrto_sources ${CMAKE_CURRENT_LIST_DIR}/*.cc)
-message(STATUS "library sources are: " ${inrto_sources})
+# message(STATUS "library sources are: " ${inrto_sources})
 add_library(intro SHARED ${inrto_sources})
 
 target_include_directories(
